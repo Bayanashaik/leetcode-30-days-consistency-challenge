@@ -6,12 +6,12 @@ from typing import List
 
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
-        max_num = max(nums)
-        max_index = nums.index(max_num)
-        for i, num in enumerate(nums):
-            if i != max_index and max_num < 2 * num:
+        max_v = max(nums)
+        ind = nums.index(max_v)
+        for i in nums:
+            if i != max_v and max_v < 2 * i:
                 return -1
-        return max_index
+        return ind
 
 # Test Cases
 s = Solution()

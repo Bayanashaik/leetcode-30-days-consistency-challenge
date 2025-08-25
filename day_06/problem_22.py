@@ -6,18 +6,17 @@ from typing import List
 
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
-        index_map = {v: i for i, v in enumerate(list1)}
-        min_sum = float('inf')
-        result = []
-        for j, v in enumerate(list2):
-            if v in index_map:
-                s = j + index_map[v]
-                if s < min_sum:
-                    min_sum = s
-                    result = [v]
-                elif s == min_sum:
-                    result.append(v)
-        return result
+        min_v = float('inf')
+        output = []
+        for i in range(len(list1)):
+            for j in range(len(list2)):
+                if list1[i] == list2[j]:
+                    if i + j < min_v:
+                        min_v = i + j
+                        output = [list1[i]]
+                    elif i + j == min_v:
+                        output.append(list1[i])
+        return output
 
 # Test Cases
 s = Solution()
