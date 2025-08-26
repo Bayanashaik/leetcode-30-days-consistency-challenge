@@ -20,8 +20,8 @@ Each folder = one day’s problems
 | 04  | Aug 22, 2025 | ✅ Completed  | 4 |
 | 05  | Aug 23, 2025 | ✅ Completed  | 4 |
 | 06  | Aug 24, 2025 | ✅ Completed  | 4 |
-| 07  | Aug 25, 2025 | ⏳ Pending    | - |
-| 08  | Aug 26, 2025 | ⏳ Pending    | - |
+| 07  | Aug 25, 2025 | ✅ Completed  | 4 |
+| 08  | Aug 26, 2025 | ✅ Completed  | 4 |
 | 09  | Aug 27, 2025 | ⏳ Pending    | - |
 | 10  | Aug 28, 2025 | ⏳ Pending    | - |
 | 11  | Aug 29, 2025 | ⏳ Pending    | - |
