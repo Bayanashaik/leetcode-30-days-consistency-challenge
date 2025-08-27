@@ -17,7 +17,4 @@ if __name__ == "__main__":
     print(s.minElement([10,12,13,14]))    # 1+0=1 (minimum)
     print(s.minElement([99,123,45]))      # 45 -> 4+5=9
     print(s.minElement([5,25,111]))       # 5 -> 5
-cd Leetcode-30-days-consistency-challenge
-git add day_09/
-git commit -m "Added day_09 problem solutions with test cases and notes"
-git push origin main
+
